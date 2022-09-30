@@ -1,5 +1,7 @@
 # Amazon Vine Analysis
 
+![image](https://user-images.githubusercontent.com/107161421/193179497-9de3819c-fadf-4881-a7ff-741ecce761f1.png)
+
 ## Overview
 
 The purpose of this analysis was to compare the ratings for all items in Amazon's "outdoor" category for any potential bias in the reviews left by members of their Vine program. The two deliverables for this analysis were:
@@ -10,10 +12,12 @@ The purpose of this analysis was to compare the ratings for all items in Amazon'
 The outdoor products data was pulled from an AWS RDS database into pgAdmin to create the necessary tables from the data and into Google Colab to clean up the data and create dataframes from the data. 
 
 Creating dataframes in Colab
+
 ![image](https://user-images.githubusercontent.com/107161421/193178871-b8d90bf3-ea1c-485e-a594-60cbc29fd0e0.png)
 
 
 Creating tables in pgAdmin (Customers, Products, Reviews, Vine)
+
 ![image](https://user-images.githubusercontent.com/107161421/193178969-1bfe13af-fd24-423e-a9de-bdd9a24109fc.png)
 ![image](https://user-images.githubusercontent.com/107161421/193179038-d97e2463-53e1-498f-8089-ac294b73aae4.png)
 ![image](https://user-images.githubusercontent.com/107161421/193179088-dd5ed206-782b-4f47-b29c-14e5373da0c5.png)
